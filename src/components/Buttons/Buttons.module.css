@@ -1,0 +1,57 @@
+.btn{
+    font-size: 2rem ;
+    cursor: pointer;
+}
+.calButtons{
+    height: 71%;
+    background-color:#312f2f ;
+    padding: .8rem;
+    border-radius: 1rem;
+    /* margin-bottom: 1rem; */
+    border: .4rem solid #8c8686;
+}
+.btnRow{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: inherit;
+    gap: 5px;
+    
+}
+.calNormalBtn{
+    background-color: black;
+    width: 18%;
+    border-radius: 13px;
+    border: 1px solid #8c8686;
+    text-align: center;
+    padding: .5rem;
+    height:  6.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calNormalUpperBtn{
+    background-color: black;
+    width: 18%;
+    border-radius: 13px;
+    border: 1px solid #8c8686;
+    text-align: center;
+    padding: .5rem;
+    height: 2,8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calBigBtn{
+    background-color: rgb(60, 31, 31);
+    width: 22%;
+    border-radius: 10px;
+    border: 1px solid #8c8686;
+    text-align: center;
+    padding: .5rem;
+    height:auto;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

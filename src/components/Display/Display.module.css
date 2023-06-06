@@ -1,0 +1,29 @@
+.calDisplay{
+    height: 25%;
+    background-color:#312f2f ;
+    padding: .8rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    border: .4rem solid #8c8686;
+}
+.resultArea{
+    /* background-color:#312f2f ; */
+    background-color:#312f2f;
+    height: 40%;
+    border-bottom: 1px solid #8c8686;
+}
+.inputArea{
+    background-color: #312f2f;
+    height: 60%;
+}
+.inputText{
+    color: white;
+    background-color: #312f2f;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}

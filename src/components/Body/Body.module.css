@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.calBody{
+    color: white;
+    height: 95vh;
+    width: 40vw;
+    background-color: #292727;
+    border-radius: 3rem ;
+    border: .9rem solid #585858;
+    padding: 1rem;
+}
