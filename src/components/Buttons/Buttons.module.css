@@ -1,5 +1,5 @@
 .btn{
-    font-size: 2rem ;
+    font-size: 1rem ;
     cursor: pointer;
 }
 .calButtons{
@@ -9,6 +9,9 @@
     border-radius: 1rem;
     /* margin-bottom: 1rem; */
     border: .4rem solid #8c8686;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .btnRow{
     display: flex;
@@ -24,7 +27,7 @@
     border: 1px solid #8c8686;
     text-align: center;
     padding: .5rem;
-    height:  6.3rem;
+    height:  11.4vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +39,7 @@
     border: 1px solid #8c8686;
     text-align: center;
     padding: .5rem;
-    height: 2,8rem;
+    height: 5.8vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,10 +51,13 @@
     border: 1px solid #8c8686;
     text-align: center;
     padding: .5rem;
-    height:auto;
+    height:auto;    
     align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+.calBigUpper{
+    height: 5.8vh;
 }

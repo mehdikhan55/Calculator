@@ -1,5 +1,5 @@
 
-import './App.css';
+import styles from './App.css';
 import Body from './components/Body/Body'
 import Display from './components/Display/Display'
 import Buttons from './components/Buttons/Buttons'
@@ -15,25 +15,40 @@ function App() {
     e.preventDefault(); 
     setResult((result) => result + Number(inputRef.current.value)); 
   }; 
+  function minus(e) { 
+    e.preventDefault(); 
+    setResult((result) => result - Number(inputRef.current.value)); 
+  }; 
+  function multiply(e) { 
+    e.preventDefault(); 
+    setResult((result) => result * Number(inputRef.current.value)); 
+  }; 
+  function divide(e) { 
+    e.preventDefault(); 
+    setResult((result) => result / Number(inputRef.current.value)); 
+  }; 
+
+
+
+
   function resetInput(e) { 
-    // Add the code for the resetInput function 
+    // Adding the code for the resetInput function 
     e.preventDefault();
     inputRef.current.value='';
   }; 
   function resetResult(e) { 
-  	// Add the code for the resetResult function 
+  	// Adding the code for the resetResult function 
     e.preventDefault();
     setResult(0);
   }; 
 
-
   return (
-    <>
+    <div className={`${styles.majorBody}`}>
       <Body>    
         <Display resetInput={resetInput} resetResult={resetResult} setResult={setResult} result={result} inputRef={inputRef} resultRef={resultRef}/>
-        <Buttons plus={plus}/>
+        <Buttons resetInput={resetInput} resetResult={resetResult} plus={plus}/>
       </Body>
-    </>
+    </div>
   );
 }
 

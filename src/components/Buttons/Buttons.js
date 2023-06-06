@@ -16,7 +16,7 @@ export default function Buttons(props) {
         <div className={`${styles.calNormalUpperBtn} ${styles.btn}`}>-</div>
         <div className={`${styles.calNormalUpperBtn} ${styles.btn}`}>-</div>
         <div className={`${styles.calNormalUpperBtn} ${styles.btn}`}>-</div>
-        <div className={`${styles.calBigBtn} ${styles.btn}`}>On</div>
+        <div className={`${styles.calBigBtn} ${styles.calBigUpper} ${styles.btn}`}>On</div>
       </div>
       <div className={`${styles.btnRow}`}>
         <div className={`${styles.calNormalBtn} ${styles.btn}`}>7</div>
